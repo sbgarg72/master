@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "test-ajit-service",
+  "private_key_id": "033016147894091e7b775b3af28ea71775712fae",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZhqDtC59cUVbV\nNPGU3WYVhhObHg1deOfO6lGgIVVVsKz9NWF0LczDwXfvpEaVaWPBN3fcQVcdviDV\n08ENSsVkQp9VFO7bhYqy6z+iNF6LjNPMHr1XSD5G4C++Ugj8eGLRR/AicqcSe52S\n1Ti/av9dmOihP2EbmB1u/RfnYuq06lj5ehIB0bwpq1xjFUAA7Jri5X4xiEp2ZeJH\nR9BnjGzQimG9zt5hB+YnuRFPScqb8z4Qxsj+yeYVdjThLxF0hZ0wfzfsY+wQZAj5\nY/tXyR8qPmouhXVwGxgtYn8qQTUjMotAPXRql95eWKh09EzWDS7biDKbpPTKq9Zl\nfdMHlUB1AgMBAAECggEAHOIq/wXXgLUN1tVb2POxS73ajO2hupLvW6qSWkPDK/iu\nBwJGuCaQtkh9AcEghWYbPiPrIS1K0D3vrALneFJ3ogX1t3pVeMfeQQyIv4HGQs9n\nHmkvGo9tJgTx/oatCaC1iKWV3ElBPPU0P0Zto3ekHQ4SQBnuMVSUPwgPOflOamQ8\ntPDdLlEjUfO6rWrg5x/zystQ2YYMisSQi8PiJ5Cw17N+1Eb+k8tZdwejXhdSquqx\n++daQ0PC6wOKtTGVT+aS89SV+VjN5/Kz8X19poJlctngl2rlb76Rj/Qsq9TCWlAD\nbo8rEEho7DSniTOSDJy09jYjQYYxKLI2kPfsh1OvaQKBgQDVllVcyQlYKKVX2ohv\ncOjF8CsmFC7wnIRK3vWEC9gdL7zLlNFzzTne65WidsBkXkjNPpKpCxJsCa1mdoro\nwIFEu1sl9dnVzzPhtzk/Q7gOcf9g12mO2oUGb/2NBmXDXfd6IBYtbfhI50Yvum9W\nvznEokLUQTGeH+fZMh2PJGNWzQKBgQC4AxaLjrlFwYT9Z01vUJUcXKGnfSqM38/d\nJztKIeoRXN7e9uCcaEGhTXEqcs4zrwc8oxCp6G5/NydMYSgwf/zfvVEWhEVTYVea\n20Ht0iIqEjW3FmmSeKndjVV8QQfGO2JYUyuz0ORt0kVnI+tiVQlFptmG/j0nfGZV\nQyVEjUeASQKBgGiaF3Q5gLoMLe24uNjbEyTdWkRr3hE4lhGU3+irZEvm9S8+0tVD\nzPO/rKjEP7Tn9/+MhYcERSFkG+fyZlVW8fgXSaxtmyF7OI1yjjbNk3Z/nfJvjOLJ\nYhyk/Cf02iG0A19sF3BoSxBpM5ZsV9rEDCag0Nnik8o9Fe7o/FD+ISiBAoGBALN6\n95uJy3aZihDsmJ/Rlo9CXr6SHFWp3AKWyILHT5o93njVjkGggxtFAPNpZW0N9F4V\noyRGvLhC4IbkYSHlRI4rBxOSUlhAowU9hTHle0NT3abGKpUeMnkR6Oa4O1AEDime\nfgr23kesB9vRMj8IOHICizvbcWS5NstFIe2aa7pZAoGBANDzPp3g/G0HmHzi+O/+\nuPLq1o5oEc81jCHwL2D3x82umTwTbBCth96nQYu5ymGIcYa2DLmH3nvtJI8pGfwj\nVyubT2zpMU7HJHYsjidajn19fY9ugZmbHF2Pvy52kQccWF339VKrcmmvT10K6K+o\nkQRzXOMSHutOFMrtC/LKklcd\n-----END PRIVATE KEY-----\n",
+  "client_email": "shashi-bhushan-garg@test-ajit-service.iam.gserviceaccount.com",
+  "client_id": "102671894157752046603",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shashi-bhushan-garg%40test-ajit-service.iam.gserviceaccount.com"
+}

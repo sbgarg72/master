@@ -1,0 +1,96 @@
+resource "google_compute_instance" "us-vm-1" {
+  name         = "us-vm-1"
+  machine_type = "e2-micro"
+  zone         = var.my_zone1
+  description = "vm in US region of automation network"
+
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-9"
+    }
+  } 
+  network_interface {
+    network = google_compute_network.automation_vpc_network.name
+	subnetwork = var.my_subnet1	
+	access_config {	}	
+  }
+  
+  scheduling {
+    automatic_restart = false
+  }
+  
+  tags = ["tag-webserver", "tag-icmp-allow", "tag-ssh-allow"]
+}
+
+resource "google_compute_instance" "us-vm-2" {
+  name         = "us-vm-2"
+  machine_type = "e2-micro"
+  zone         = var.my_zone1
+  description = "vm in US region of automation network"
+
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-9"
+    }
+  } 
+  network_interface {
+    network = google_compute_network.automation_vpc_network.name
+	subnetwork = var.my_subnet1	
+	access_config { 	}	
+  }
+  
+  scheduling {
+    automatic_restart = false
+  }
+  
+  tags = ["tag-webserver", "tag-icmp-allow", "tag-ssh-allow"]
+}
+
+resource "google_compute_instance" "eu-vm-1" {
+  name         = "eu-vm-1"
+  machine_type = "e2-micro"
+  zone         = var.my_zone2
+  description = "vm in europe region of automation network"
+
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-9"
+    }
+  } 
+  network_interface {
+    network = google_compute_network.automation_vpc_network.name
+	subnetwork = var.my_subnet2	
+	access_config { 	}	
+  }
+  
+  scheduling {
+    automatic_restart = false
+  }
+  
+  tags = ["tag-ssh-allow", "tag-icmp-allow"]
+}
+
+resource "google_compute_instance" "eu-vm-2" {
+  name         = "eu-vm-2"
+  machine_type = "e2-micro"
+  zone         = var.my_zone2
+  description = "vm in europe region of automation network"
+
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-9"
+    }
+  } 
+  network_interface {
+    network = google_compute_network.automation_vpc_network.id
+	subnetwork = var.my_subnet2	
+	access_config { 	}	
+  }
+  
+  scheduling {
+    automatic_restart = false
+  }
+  
+  tags = ["tag-ssh-allow", "tag-icmp-allow"]
+}
+
